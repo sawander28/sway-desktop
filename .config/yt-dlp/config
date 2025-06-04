@@ -1,0 +1,35 @@
+# -*- mode: sh -*-
+
+#--format "bestvideo[ext=mp4]+bestaudio[ext=m4a]"
+
+--extract-audio
+--audio-format m4a
+#--audio-multistreams  # allow multiple streams to be merged in one file
+
+--output "~/music/%(title)s.%(ext)s"
+
+--progress  # progress-bar
+--console-title # show progress in console
+--newline
+
+--no-keep-video
+--post-overwrites
+--geo-bypass    # bypass localization
+--no-mtime      # don't update timestamps
+--update        # check for updates
+--rm-cache-dir  # cleanup cache afterwards
+--fixup force   # auto correction policy
+
+# Modifying Metadata
+--embed-thumbnail
+--embed-metadata
+--xattrs  # write metadata using XDG standards
+
+# parse-metadata: [WHEN:]FROM:TO:
+#--parse-metadata "title:%(artist)s - %(title)s"
+
+# replace-in-metadata [WHEN:]FIELDS REGEX REPLACE
+#--replace-in-metadata
+
+# show available formats
+#--list-formats

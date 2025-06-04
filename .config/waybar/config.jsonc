@@ -1,0 +1,30 @@
+[{
+  "include": "~/.config/waybar/modules",
+  "layer": "top",
+  "output": "HDMI-A-1",
+  //"mode": "dock",
+  "spacing": 5,
+  "fixed-center": true,
+  "ipc": true,
+  "margin-left": 0,
+  "margin-right": 0,
+
+  "modules-left": ["sway/workspaces", "sway/mode", "sway/scratchpad"],
+  "modules-center": ["sway/window"],
+  "modules-right": ["cpu", "temperature", "disk", "memory", "network"]
+}
+, {
+  "include": "~/.config/waybar/modules",
+  "layer": "top",
+  "output": "DVI-I-1",
+  //"mode": "dock",
+  "spacing": 5,
+  "fixed-center": true,
+  "ipc": true,
+  "margin-left": 0,
+  "margin-right": 0,
+
+  "modules-left": ["sway/workspaces"],
+  "modules-center": ["sway/window"],
+  "modules-right": ["mpd", "pulseaudio", "clock", "tray", "custom/power"]
+}]
