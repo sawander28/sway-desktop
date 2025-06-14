@@ -16,7 +16,7 @@
 --post-overwrites
 --geo-bypass    # bypass localization
 --no-mtime      # don't update timestamps
---update        # check for updates
+#--update        # no updates when installed from pkg-manager
 --rm-cache-dir  # cleanup cache afterwards
 --fixup force   # auto correction policy
 
