@@ -24,9 +24,8 @@ set $menu bemenu-run
     # Start a terminal
     bindsym $mod+Return exec $term
     bindsym Ctrl+Return exec foot
-    bindsym Ctrl+Shift+Return exec kitty
     bindsym $mod+t exec xfce4-taskmanager
-    bindsym Ctrl+Shift+f exec thunar
+    bindsym Ctrl+Shift+Return exec thunar
     bindsym Ctrl+Shift+e exec mousepad
     bindsym Ctrl+$mod+f exec firefox-wayland
     # Kill focused window
@@ -34,6 +33,7 @@ set $menu bemenu-run
 
     # Start your launcher
     bindsym $mod+d exec $menu
+    bindsym Ctrl+Space exec $menu
 
     # Drag floating windows by holding down $mod and left mouse button.
     # Resize them with right mouse button + $mod.

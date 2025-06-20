@@ -18,7 +18,7 @@ mpd_host = /run/user/1000/mpd.sock
 #
 mpd_port = 6600
 #
-#mpd_password = ""
+mpd_password = "MY_MUSIC"
 #
 #mpd_connection_timeout = 5
 #
