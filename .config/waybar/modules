@@ -60,8 +60,8 @@
   },
 
   "disk": {
-    "interval": 30,
-    "format": " {free} {percentage_free}%",
+    "format": " {free} free on {path}",
+    "path": "/",
     "unit": "GB"
   },
 
@@ -85,7 +85,7 @@
       "format": " {temperatureC}°C"
   },
 
-	"backlight": {
+  "backlight": {
       // "device": "acpi_video1",
       "format": "{percent}% {icon}",
       "format-icons": ["", "", "", "", "", "", "", "", ""]
