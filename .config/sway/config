@@ -66,6 +66,7 @@ set $menu wmenu-run
 #
     # Start a terminal
     bindsym $mod+Return exec $term
+    bindsym Ctrl+Return exec alacritty
 
     # Kill focused window
     bindsym $mod+Shift+q kill
