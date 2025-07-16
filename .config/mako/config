@@ -1,12 +1,11 @@
-max-history=100
-sort=-time
 
-# BINDING OPTIONS
-on-button-left=dismiss
-on-button-middle=none
-on-button-right=dismiss-all
-on-touch=dismiss
-#on-notify=exec mpv /usr/share/sounds/freedesktop/stereo/message.oga
+background-color=#000000FF
+border-color=#181818FF
+text-color=#D8D8D8FF
+#background-color=#1e1e2e
+#text-color=#d9e0ee
+#border-color=#313244
+progress-color=over #89b4fa
 
 # STYLE OPTIONS
 font=JetBrainsMono Nerd Font 12
@@ -29,10 +28,6 @@ max-visible=5
 layer=overlay
 anchor=bottom-right
 
-background-color=#1e1e2e
-text-color=#d9e0ee
-border-color=#313244
-progress-color=over #89b4fa
 
 [urgency=low]
 border-color=#313244

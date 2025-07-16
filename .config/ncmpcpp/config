@@ -15,8 +15,8 @@ lyrics_directory = ~/.cache/ncmpcpp/lyrics
 #
 #mpd_host = 127.0.0.1
 mpd_host = /run/user/1000/mpd.sock
-#
-mpd_port = 6600
+#mpd_host = 127.0.0.1
+#mpd_port = 6600
 #
 #mpd_password = "MY_MUSIC"
 #
