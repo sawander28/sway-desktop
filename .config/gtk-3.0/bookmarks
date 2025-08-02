@@ -2,3 +2,6 @@ file:///srv/nfs NFS
 file:///home/wandsas/Documents Documents
 file:///home/wandsas/Desktop Desktop
 file:///srv/nfs/Downloads Downloads
+file:///home/wandsas/.local/share xdg-data
+file:///home/wandsas/.config xdg-config
+file:///home/wandsas/.cache xdg-cache
