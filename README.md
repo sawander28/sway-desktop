@@ -1,1 +1,1 @@
-- Sway tiling WM & Wayland Compositor
+- Sway WM/Wayland
