@@ -98,7 +98,7 @@
     "device": "intel_backlight"
   },
 
-	"power-profiles-daemon": {
+  "power-profiles-daemon": {
   	"format": "{icon}",
     "tooltip-format": "Power profile: {profile}\nDriver: {driver}",
     "tooltip": true,
